@@ -1,0 +1,10 @@
+.configure_button{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.configure_custom_background{
+    background: rgba(102, 51, 43, 1) !important;
+    color: white !important;
+}

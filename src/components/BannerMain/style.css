@@ -1,0 +1,76 @@
+.background-div{
+    background: #34495E;
+    color: white;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.background-card{
+    background: #F6F8FA;
+    color: #34495E;
+}
+
+.font_color_product{
+    color: #34495E;
+    font-weight: 600;
+}
+.desktop_view{
+    display: none !important;
+}
+.button_dashboard:active{
+    border-radius: 1.5px;
+    background: #34495E;
+}
+.text_table{
+    color: #8894A0 !important;
+    font-family: sans-serif !important;
+    font-size: 12px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: normal !important;
+    text-transform: uppercase;
+}
+
+.text_yellow{
+    color: #E67E22 !important;
+
+}
+
+.text_gray{
+    color: #8894A0 !important;
+}
+
+.new_button_dashboard{
+    width: 56px !important;
+    height: 20px;
+    font-size: 12px;
+    border-radius: 50px;
+    background: rgba(23, 168, 95, 0.20);
+    padding: 1px;
+    text-align: center;
+    color: #17A85F;
+}
+
+.sticky-plus{
+    position: fixed;
+    bottom: 5%;
+    width: 90%;
+    left: 90%;
+}
+@media only screen and (max-width: 600px) {
+    .mobile_view{
+        display: none !important;
+    }
+    .margin-no{
+        margin: 0px !important;
+    }
+    .sticky-plus{
+        position: fixed;
+        bottom: 5%;
+        width: 90%;
+        left: 70%;
+    }
+    .desktop_view{
+        display: flex !important;
+    }
+}

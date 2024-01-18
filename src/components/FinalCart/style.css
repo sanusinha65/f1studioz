@@ -1,0 +1,18 @@
+.font_color{
+    color: rgba(102, 51, 43, 1) !important;
+}
+.border_div {
+    border-bottom: 0px solid rgba(221, 221, 221, 1);
+    border-right: 1px solid rgba(221, 221, 221, 1);
+}
+
+@media only screen and (max-width: 600px) {
+    .font_size{
+        font-size: 10px !important;
+    }
+    .border_div {
+        border-right: 0px solid rgba(221, 221, 221, 1);
+        border-bottom: 1px solid rgba(221, 221, 221, 1);
+    }
+
+}

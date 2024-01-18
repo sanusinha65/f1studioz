@@ -1,0 +1,19 @@
+.card-title-heading{
+    font-size: 20px !important;
+    line-height: 26px;
+    color: #2A292A !important;
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .card-title-heading{
+        font-size: 14px !important;
+        line-height: 26px;
+        color: #2A292A !important;
+        font-weight: 600;
+    }
+    .font_size_small{
+        font-size: 12px;
+    }
+}

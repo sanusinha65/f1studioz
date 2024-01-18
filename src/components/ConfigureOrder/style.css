@@ -1,0 +1,29 @@
+.configure_button{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.configure_custom_background{
+    background: rgba(102, 51, 43, 1) !important;
+    color: white !important;
+}
+
+.card-header-bg{
+    background:rgba(228, 228, 228, 1) !important;
+    color: rgba(52, 73, 94, 1) !important;
+}
+
+input[type="checkbox"] {
+    accent-color: rgba(102, 51, 43, 1) !important;
+}
+
+input[type="radio"] {
+    accent-color: rgba(102, 51, 43, 1) !important;
+}
+
+.sticky_bottom{
+    position: absolute;
+    bottom: 0;
+    z-index:999;
+}
